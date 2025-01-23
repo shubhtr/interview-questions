@@ -4,7 +4,7 @@
 
 https://www.geeksforgeeks.org/what-are-the-differences-between-http-module-and-express-js-module/
 
-## What the differences between Javascript and Typescript?
+## What are the differences between Javascript and Typescript?
 
 #### (1) Static Typing
 
