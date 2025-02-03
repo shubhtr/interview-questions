@@ -6,7 +6,12 @@ https://jsonplaceholder.typicode.com/users
 
 https://jsonplaceholder.typicode.com/posts
 
-
+/posts	100 posts
+/comments	500 comments
+/albums	100 albums
+/photos	5000 photos
+/todos	200 todos
+/users	10 users
 
 ### What is the difference between a hook and a function component?
 
