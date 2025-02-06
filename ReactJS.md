@@ -60,3 +60,12 @@ Examples	Button(), Card()	useState(), useEffect(), useRef()
 In Simple Terms
 A function component defines a piece of UI.
 A hook is a function that enhances a function component by adding state or other React features.
+
+
+## 3 Advanced React Interview Questions
+https://www.youtube.com/watch?v=-UkV6To-7_g
+
+1. How React's reconciliation Algorithm Works?
+2. How does React handles aysnchronous updates?
+3. How does React solves optimization problem and is it good to always optimize?
+
