@@ -33,6 +33,7 @@ Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web 
 
 https://docs.aws.amazon.com/route53/
 
+
 ## Lightsail
 
 Lightsail includes the features you need to launch projects, quickly: instances (virtual private servers), managed databases, object storage, load balancers, content delivery network (CDN) distributions, SSD-based block storage, static IP addresses, IPv6, domain registration, DNS management, and snapshots (backups). These features are all available for a low, predictable monthly price.
@@ -73,3 +74,23 @@ https://docs.aws.amazon.com/ecs/
 Amazon Elastic Container Registry (Amazon ECR) is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere.
 
 https://docs.aws.amazon.com/ecr/
+
+## Cognito
+
+Amazon Cognito handles user authentication and authorization for your web and mobile apps. With user pools, you can easily and securely add sign-up and sign-in functionality to your apps. With identity pools (federated identities), your apps can get temporary credentials that grant users access to specific AWS resources, whether the users are anonymous or are signed in.
+
+https://docs.aws.amazon.com/cognito/
+
+
+## Billing and Cost Management
+
+AWS Billing and Cost Management is a service that provides features that helps you pay your bills and optimize your costs. Amazon Web Services bills your account for usage, which ensures that you pay only for what you use.
+
+https://docs.aws.amazon.com/account-billing/
+
+## Pricing Calculator
+
+AWS provides a public Pricing Calculator website and an in-console Pricing Calculator experience so that you can generate estimates for your specific workloads or applications. The public calculator is accessible to anyone, including those without an AWS account. The in-console calculator is available exclusively to AWS account holders, including standalone accounts and those within an AWS organization (member and management accounts).
+
+https://docs.aws.amazon.com/pricing-calculator/
+
