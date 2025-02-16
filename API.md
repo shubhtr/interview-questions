@@ -1,5 +1,16 @@
 # API 
 
+## Types of API
+
+1. REST
+2. SOAP
+3. GraphQL
+4. gPRC
+5. WebSockets
+
+
+## Glossary
+
 ### REST API
 <ins>Representational State Transfer</ins>
 
@@ -26,4 +37,17 @@ Standard HTTP operations (GET, POST, PUT, DELETE) defining resource interactions
 Standard Codes (2xx, 4xx, 5xx) indicating success, client errors, or server errors.
 
 
+## References
+
+https://blog.postman.com/different-types-of-apis/
+
+https://www.geeksforgeeks.org/difference-between-rest-api-and-web-socket-api/
+
+https://www.geeksforgeeks.org/application-programming-interfaces-api-and-its-types/
+
+https://stoplight.io/api-types
+
+https://www.techtarget.com/searchapparchitecture/tip/What-are-the-types-of-APIs-and-their-differences
+
+https://konghq.com/blog/learning-center/different-api-types-and-use-cases
 
