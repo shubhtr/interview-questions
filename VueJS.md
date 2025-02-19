@@ -1,5 +1,7 @@
 # VueJS Interview Questions
 
+# 01
+
 ### 001 What is VueJS?
 
 VueJS is a progressive JavaScript framework for building user interfaces and single-page applications. It's designed to be incrementally adoptable, meaning you can use it for a small part of a page or for an entire single-page application.
@@ -66,6 +68,17 @@ Vuex is a state management library for VueJS, typically used in larger applicati
 * It has improved performance and a smaller bundle size.
 * Vue 3  uses the Proxy API for reactivity instead of Object.defineProperty to manage reactivity.
 
+# 02
+
+### Vue and Typescript
+
+Vue is written in TypeScript itself and provides first-class TypeScript support. All official Vue packages come with bundled type declarations that should work out-of-the-box.
+
+
 # References
 
 https://www.youtube.com/watch?v=-iBAG3UloRA
+
+https://vuejs.org/guide/typescript/overview.html
+
+
