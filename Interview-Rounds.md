@@ -13,6 +13,8 @@
 
 ![Manager Round](./img/manager-round.png "Manager Round")
 
+![Manager Round - a](./img/manager-round-a.png "Manager Round a")
+
 5. HR Round #2 - salary etc
 
 ![HR Round #2](./img/hr-round-2.png "HR Round #2")
