@@ -6,4 +6,4 @@ Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are 
 
 ![Cloud 02](./img/cloud-02.png "Cloud 02")
 
-![Cloud 03](./img/cloud-03.png "Cloud 03")
+![Cloud 03](./img/cloud-03.jpg "Cloud 03")
