@@ -61,3 +61,8 @@ Ultimately, the choice between AWS, Azure, and GCP depends on your specific need
 # References
 
 https://www.linkedin.com/pulse/hybrid-cloud-comparison-aws-azure-google-platforms-shreejit-jadhav-yitrf/
+
+https://www.reddit.com/r/dataengineering/comments/13oaw8m/cloud_comparison_by_simonholdorf/?rdt=46684
+
+https://cloud.google.com/free
+
