@@ -1,8 +1,6 @@
 # SQL Interview Questions & Answers  
 **Target Role: Full-Stack & Backend Engineer**
 
----
-
 # 🟢 BASIC SQL (20 Questions + Answers)
 
 ## 1. What is SQL?
@@ -14,8 +12,6 @@ Main categories:
 - **DQL** – SELECT
 - **TCL** – COMMIT, ROLLBACK
 - **DCL** – GRANT, REVOKE
-
----
 
 ## 2. Difference between WHERE and HAVING?
 
@@ -30,8 +26,6 @@ GROUP BY department
 HAVING COUNT(*) > 5;
 ```
 
----
-
 ## 3. What is a Primary Key?
 
 * Uniquely identifies each row.
@@ -45,8 +39,6 @@ CREATE TABLE users (
 );
 ```
 
----
-
 ## 4. What is a Foreign Key?
 
 Maintains referential integrity between tables.
@@ -54,8 +46,6 @@ Maintains referential integrity between tables.
 ```sql
 FOREIGN KEY (user_id) REFERENCES users(id);
 ```
-
----
 
 ## 5. PRIMARY KEY vs UNIQUE
 
@@ -66,8 +56,6 @@ FOREIGN KEY (user_id) REFERENCES users(id);
 | Per table    | Only 1      | Multiple    |
 | Indexed      | Yes         | Yes         |
 
----
-
 ## 6 DELETE vs TRUNCATE vs DROP
 
 | Command  | Deletes Rows | Structure | Rollback     | Speed  |
@@ -77,8 +65,6 @@ FOREIGN KEY (user_id) REFERENCES users(id);
 | DROP     | Entire table | Deletes   | No           | Fast   |
 
 
----
-
 ## 7 What is an Index?
 
 A data structure (usually B-Tree) that improves lookup speed.
@@ -87,8 +73,6 @@ Trade-off:
 
 * Faster reads
 * Slower writes
-
----
 
 ## 8. What is GROUP BY?
 
@@ -100,15 +84,11 @@ FROM employees
 GROUP BY department;
 ```
 
----
-
 ## 9. COUNT(*) vs COUNT(column)
 
 COUNT(*) counts all rows.
 
 COUNT(column) ignores NULL values.
-
----
 
 ## 10. What is a JOIN?
 
@@ -120,14 +100,10 @@ FROM users u
 JOIN orders o ON u.id = o.user_id;
 ```
 
----
-
 ## 11. INNER JOIN vs LEFT JOIN
 
 * INNER → Only matching rows
 * LEFT → All left rows + matches
-
----
 
 ## 12. What is a Self Join?
 
@@ -140,8 +116,6 @@ LEFT JOIN employees m
 ON e.manager_id = m.id;
 ```
 
----
-
 ## 13. What is a Subquery?
 
 Query inside another query.
@@ -151,14 +125,10 @@ SELECT * FROM users
 WHERE id IN (SELECT user_id FROM orders);
 ```
 
----
-
 ## 14. IN vs EXISTS
 
 * IN → Good for small datasets
 * EXISTS → Better for large datasets
-
----
 
 ## 15. Aggregate Functions
 
@@ -168,13 +138,9 @@ WHERE id IN (SELECT user_id FROM orders);
 * MIN
 * MAX
 
----
-
 ## 16. What is Normalization?
 
 Reducing redundancy in database design.
-
----
 
 ## 17. Normal Forms
 
@@ -182,25 +148,18 @@ Reducing redundancy in database design.
 * 2NF → No partial dependency
 * 3NF → No transitive dependency
 
----
-
 ## 18. Default ORDER BY?
 
 Ascending (ASC)
-
----
 
 ## 19. What is NOT NULL?
 
 Prevents storing NULL values.
 
----
-
 ## 20. What is Referential Integrity?
 
 Ensures foreign key values exist in referenced table.
 
----
 
 # 🟡 INTERMEDIATE SQL (20 Questions + Answers)
 
@@ -208,8 +167,6 @@ Ensures foreign key values exist in referenced table.
 
 * Clustered → Defines physical row order (1 per table)
 * Non-clustered → Separate structure pointing to rows
-
----
 
 ## 2. Composite Index
 
